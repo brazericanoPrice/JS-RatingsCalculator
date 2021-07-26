@@ -10,6 +10,6 @@ function collect_ratings(){
     
     elements.forEach( element => {
         rating = parseInt(element.id.replace('star',''));
-        rating.count += parseInt(element.value);
+        ratings.count += parseInt(element.value);
     })
 }
